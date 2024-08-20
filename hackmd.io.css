@@ -1,0 +1,70 @@
+:root[theme="dark"] {
+    --hmd-tw-background-primary-default: #00000018;
+    --hmd-tw-border-primary-focus: #10101018;
+    --hmd-tw-background-primary-hover: #10101018;
+    --hmd-tw-background-primary-focus: #10101018;
+    
+    --hmd-tw-link-text-default: #0074d0;
+    --hmd-tw-link-text-hover: #0074d0;
+}
+
+.cm-s-neo-dark .cm-header, .cm-s-neo-dark .cm-string-2 {
+    color: #84b4ff;
+}
+
+.cm-s-neo-dark .cm-hr, .cm-s-neo-dark .cm-variable, .cm-s-neo-dark .cm-link, .cm-s-neo-dark .cm-property, .cm-s-neo-dark .cm-m-markdown.cm-keyword, .cm-s-neo-dark .cm-m-markdown.cm-tag, .cm-s-neo-dark .cm-m-markdown.cm-builtin, .cm-s-neo-dark .cm-atom {
+    color: #9dd79c;
+}
+
+body[style*="padding-top: 51px"] {
+    padding-top: 0px !important;
+}
+
+.CodeMirror-sizer {
+    padding-top: 10px;
+}
+
+.navbar.navbar-default {
+    background-color: rgba(110,110,110,0.3);
+    backdrop-filter: blur(12px) brightness(1) saturate(1.6) invert(0.25);
+    border-color: rgba(255,255,255,0.3);
+    filter: drop-shadow(0 0.3rem 0.65rem #0000004A);
+}
+
+.ui-content.comment-panel .ui-view-area, body.pretty-comment-panel .ui-view-area {
+    padding-top: 32px;
+}
+
+div.tool-bar {
+    padding-top: 60px;
+}
+
+.navbar{
+    top: 8px;
+    border-radius: 16px;
+    left: 6px;
+    right: 6px;
+}
+
+.text-text-default{
+    color: #FFFFFFB0
+}
+
+.navbar-fixed-top > *{
+    border-width: 1.6px;
+}
+
+:root[theme] .dropdown-menu {
+    background-color: rgba(110,110,110,0.3);
+    backdrop-filter: blur(12px) brightness(1) saturate(1.6) invert(0.25);
+    border-color: rgba(255,255,255,0.15);
+    filter: drop-shadow(0 0.3rem 0.25rem #0000004A);
+}
+
+:root[theme] .dropdown-header {
+    color: white;
+}
+
+:root[theme] .dropdown-menu .divider {
+    border-color: #BBB;
+}
